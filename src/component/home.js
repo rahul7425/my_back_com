@@ -180,7 +180,6 @@ export default function Home() {
                     <span class="text-neutral-500 dark:text-neutral-400">REY backpacks & bags</span>
                 </h2>
                 <div className="collections container">
-
                     <div className="content">
                         <img src="https://i.postimg.cc/Xqmwr12c/clothing.webp" alt=" /img" />
                         <div className="img-content">
@@ -518,7 +517,7 @@ export default function Home() {
             </section>
             <hr style={{ margin: '5rem 2rem' }} />
             {/* Best Selling of This Month */}
-            <section className='container best-selling'>
+            <section className='container best-selling '>
                 <h2 class="container discover-text semiBold">Best Sellers
                     <span class="">. </span>
                     <span class="text-neutral-500 dark:text-neutral-400">Best selling of the month</span>
@@ -977,25 +976,25 @@ export default function Home() {
                 <div className='container row text-center'>
                     <div className='col-md-3'>
                         <img src='/images/search.svg' width={160}/> <br />
-                        <div class="badge bg-yellow rounded my-3" style={{color:"#991b1b", backgroundColor:"#fee2e2"}}>Setp 1</div>   
+                        <div class="badge rounded my-3" style={{color:"#991b1b", backgroundColor:"#fee2e2"}}>Setp 1</div>   
                         <p style={{fontSize: "16px", lineHeight: "1rem", color: "#0f172a", marginTop:"20px", fontWeight:600}}>Filter & Discover</p>
                         <p style={{fontSize: ".875rem", lineHeight: "1.25rem", color: "#334155", padding:"0px 35px",}}>Smart filtring and suggestions make it esay to find</p>
                     </div>
                     <div className='col-md-3'>
                         <img src='/images/cart.svg' width={160} height={152}/> <br />
-                        <div class="badge bg-yellow rounded my-3" style={{color:"#3730a3", backgroundColor:"#e0e7ff"}}>Setp 2</div>   
+                        <div class="badge rounded my-3" style={{color:"#3730a3", backgroundColor:"#e0e7ff"}}>Setp 2</div>   
                         <p style={{fontSize: "16px", lineHeight: "1rem", color: "#0f172a", marginTop:"20px", fontWeight:600}}>Add to bag</p>
                         <p style={{fontSize: ".875rem", lineHeight: "1.25rem", color: "#334155", padding:"0px 35px",}}>Easily select the correct items and add them to the cart</p>
                     </div>
                     <div className='col-md-3'>
                         <img src='/images/shipping.svg' width={160} height={152}/> <br />
-                        <div class="badge bg-yellow rounded my-3" style={{color:"#854d0e", backgroundColor:"#fef9c3"}}>Setp 3</div>   
+                        <div class="badge rounded my-3" style={{color:"#854d0e", backgroundColor:"#fef9c3"}}>Setp 3</div>   
                         <p style={{fontSize: "16px", lineHeight: "1rem", color: "#0f172a", marginTop:"20px", fontWeight:600}}>Fast shipping</p>
                         <p style={{fontSize: ".875rem", lineHeight: "1.25rem", color: "#334155", padding:"0px 35px",}}>The carrier will confirm and ship quickly to you</p>
                     </div>
                     <div className='col-md-3'>
                         <img src='/images/review.svg' width={160} height={152}/> <br />
-                        <div class="badge bg-yellow rounded my-3" style={{color:"#6b21a8", backgroundColor:"#f3e8ff"}}>Setp 4</div>   
+                        <div class="badge rounded my-3" style={{color:"#6b21a8", backgroundColor:"#f3e8ff"}}>Setp 4</div>   
                         <p style={{fontSize: "16px", lineHeight: "1rem", color: "#0f172a", marginTop:"20px", fontWeight:600}}>Enjoy the product</p>
                         <p style={{fontSize: ".875rem", lineHeight: "1.25rem", color: "#334155", padding:"0px 35px",}}>Have fun and enjoy your 5-star quality products</p>
                     </div>

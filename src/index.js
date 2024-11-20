@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './Layout.js';
-import Home from './component/Home.js'
+import Home from "./component/home.js"
+import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import About from './component/about.js'
 import Contact from './component/Contact.js';
+import Accessories from './component/Accessories/Accessories.js';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,6 +21,7 @@ const router = createBrowserRouter([
       {path: "/", element: <Home/>},
       {path: "about", element: <About/>},
       {path: "contact", element: <Contact/>},
+      {path: "accessories", element: <Accessories/>},
     ]
   }
 ])

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import home from '../Home';
 import Contact from '../Contact';
 import './Header.css';
 
@@ -22,25 +21,6 @@ export default function Header() {
                     </div>
                 </div>
             </section>
-            {/* <nav className="navbar">
-                <div className="container navbar-container">
-                    <input type="checkbox" name="" id="checkbox" />
-                        <div className="hamburger-lines">
-                            <span className="line line1"></span>
-                            <span className="line line2"></span>
-                            <span className="line line3"></span>
-                        </div>
-                        <ul className="menu-items">
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/about">About</Link></li>
-                            <li><Link href="#news">Blog</Link></li>
-                            <li><Link href="#contact">Contact</Link></li>
-                        </ul>
-                        <div className="logo">
-                            <p>ecomFinuniqueLOGO</p>
-                        </div>
-                </div>
-            </nav> */}
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container navbar-container">
                     <a className="navbar-brand" href="#">Navbar</a>
@@ -56,7 +36,7 @@ export default function Header() {
                                 <Link to='/about' className="nav-link" href="#">Electronics</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='#' className="nav-link" href="#">Accessories</Link>
+                                <Link to='/accessories' className="nav-link" href="#">Accessories</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to='#' className="nav-link" href="#">Computers</Link>
