@@ -1,0 +1,45 @@
+.CO-btn {
+    background: rgb(7, 0, 34);
+}
+
+.ID-btn {
+    font-size: 20px;
+    padding: 4px 8px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+}
+
+.SC-img-h {
+    height: 24vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: radial-gradient(#ffffff, #e8e6e6);
+
+}
+
+.fs-7{
+    font-size: 14px;
+}
+
+.top {
+    top: 4rem;
+}
+
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+hr {
+   
+        border-top: 1px dashed rgb(0, 0, 0);
+ 
+}
+

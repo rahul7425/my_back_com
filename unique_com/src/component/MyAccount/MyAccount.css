@@ -1,0 +1,180 @@
+.nav_color {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav_color:hover {
+    color: rgb(103, 103, 103)
+}
+
+
+.img_circle {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(240, 240, 240);
+}
+
+.text {
+    height: auto;
+    width: auto;
+}
+
+.box {
+    border: none;
+}
+
+.img-shape {
+    background-color: rgb(240, 240, 240);
+    border-radius: 25px;
+}
+
+.text-size {
+    font-size: 10px;
+}
+
+.bt-size button {
+    margin: 0;
+    padding: 0;
+}
+
+.bt-size button p {
+    font-size: 12px;
+    margin: 5px;
+}
+
+.scroll:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+
+}
+
+.box1 {
+    max-width: 540px;
+}
+
+.img-size {
+    max-width: fit-content;
+    max-height: max-content;
+    align-items: center;
+}
+
+
+.layer {
+    opacity: 0;
+    height: 0;
+    color: blue !important;
+}
+
+.img-shape:hover .layer {
+    opacity: 1;
+    top: -8vh;
+    text-align: center;
+    transition: transform 2s ease, opacity .5s ease-out;
+}
+
+.layer button {
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    padding: 0;
+    border-radius: 30%;
+    border: none;
+}
+
+.layer button:hover {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+
+.scroll {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-list {
+        flex-wrap: nowrap;
+        /* Prevent wrapping */
+        overflow-x: scroll;
+        /* Enable horizontal scrolling */
+    }
+
+    .navbar-list li {
+        flex: 0 0 auto;
+        /* Keep list items from growing or shrinking */
+    }
+}
+
+
+@media (min-width:990px) {
+    .layer button {
+        font-size: 12px;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.nav.navbar-list.nav_color::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+
+.scroll .nav-link.nav_color.active {
+    color: blue;
+    border-bottom: 1px solid blue;
+
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.fs-7 {
+    font-size: 13px;
+}
+
+.img-size-acc {
+    height: 10vh;
+    width: 10vh;
+    background-color: rgb(240, 240, 240);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(240, 240, 240);
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.delivery-color {
+    color: rgb(66, 190, 46);
+}
+
+.f-8{
+font-size:22px
+}
+
+.f-9{
+font-size: 15px;
+}
+
+@media (min-width:300px) and (max-width:576px) {
+    .f-8 {
+        font-size: 13px;
+    }
+    .f-9 {
+        font-size: 13px;
+    }
+}
