@@ -21,6 +21,7 @@ import Checkout from './component/MyOrder/Checkout.js';
 import Wishlist from './component/product/Wishlist.js';
 import Electronics from './component/Electronices/Electronics.js';
 import About from './component/about.js';
+import Register from './component/Register.js';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,7 +40,8 @@ const router = createBrowserRouter([
       { path: "about", element: <About /> },
     ]
   },
-  { path: "login", element: <Login /> }
+  { path: "login", element: <Login /> },
+  { path: "register", element: <Register /> },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

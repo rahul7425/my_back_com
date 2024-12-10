@@ -1130,4 +1130,116 @@ button.wishlistbtn.active .bi-heart-fill{
         height: 90vmax;
     }
 }
-
+/* //................. Login ............// */
+/* General Styles */
+  
+  .login-container {
+    display: flex;
+    height: 100vh;
+  }
+  /* Right Section */
+  .login-container {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.7) url('/public/images/login.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .login-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .login-section p {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .input-field i {
+    position: absolute;
+    left: 10px;
+    top: 67%;
+    transform: translateY(-50%);
+    color: #ccc;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+  }
+  
+  .btn-continue {
+    width: 100%;
+    padding: 10px;
+    background-color: #d4a373;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-continue i {
+    margin-left: 5px;
+  }
+  
+  .divider {
+    margin: 20px 0;
+    font-size: 0.9rem;
+  }
+  
+  .divider span {
+    background: #d4a373;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .register-text {
+    font-size: 0.9rem;
+  }
+  
+  .register-text a {
+    color: #d4a373;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .login-section .btn.btn-outline:hover, .btn.show{
+    color: #000 !important;
+  }
+  .login-section{
+    width: 50%;
+  }
